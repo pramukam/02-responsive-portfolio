@@ -45,6 +45,11 @@ footer{
         padding: 20px;
         border-top: 8px solid #59AAA5
 }
+
+.btn-outline-primary {
+    background-color: #59AAA5;
+    color: white;
+}
     
    
   
