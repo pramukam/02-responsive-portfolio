@@ -21,3 +21,17 @@ Responsive design ensures that web applications render well on a variety of devi
 
 
 * Please refer to the asset folder for to view the screens shots of the website in different screen sizes (sm md lg) 
+
+Please find below links
+
+screenshots
+
+https://github.com/pramukam/02-responsive-portfolio/tree/main/screenshots	
+
+Repo
+
+https://github.com/pramukam/02-responsive-portfolio
+
+GitHub page
+
+https://pramukam.github.io/02-responsive-portfolio/
