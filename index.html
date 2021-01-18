@@ -13,6 +13,13 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/5b51d3a25f.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
     <title>About Me</title>
 </head>
 
@@ -20,10 +27,10 @@
     <!-- NavBar -->
 
     <!-- NavBrand for sm screens -->
-    <a class="navbar-brand p-3 d-block d-md-none d-lg-none d-xl-none text-center" href="index.html">Pramuka Perera</a>
+    <a class="navbar-brand p-3 d-block d-md-none d-lg-none d-xl-none text-center MyBgColor" href="index.html">Pramuka Perera</a>
 
     <!-- NavBrand and the NavBar for lg and above -->
-    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand navbar-light bg-light p-0">
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand navbar-light bg-light p-0 MyBgColor">
         <a class="navbar-brand p-3 ml-5 d-none d-sm-none d-md-block" href="index.html">Pramuka Perera</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,8 +58,18 @@
 
     <main class="row">
         <div class="col-12 col-sm-11 col-md-11 col-lg-8 m-sm-4 m-md-4">
-            <div class="mybox m-lg-auto p-5 ">
-                <h1>About Me</h1>
+            <div class="mybox m-lg-auto p-5 MyBgColor">
+                <h1>About Me</h1> 
+                    <div class="row">
+                        <div class="col">
+                            <div><i class="fab fa-linkedin"></i></div><div><a href="https://www.linkedin.com/in/pramuka-perera-9414b2a6/">My linkedin profile</a></p></div>
+                            
+                        </div>
+                        <div class="col">
+                            <div><i class="far fa-file"></i></div><div><a href="">My Resume</a></div>
+                            
+                        </div>
+                    </div>
                 <hr>
 
 
@@ -76,7 +93,7 @@
         </div>
     </main>
     <!-- footer -->
-    <footer>
+    <footer class="MyBgColor">
         &#169; Copyright
     </footer>
 
